@@ -12,15 +12,17 @@ A full-stack .NET developer.
 
 [![](https://vistr.dev/badge?repo=elfocrash.elfocrash&corners=round&color=fa8072&leftcolor=87CEEB)](https://github.com/Elfocrash/vistr.dev)
 <a href="https://twitter.com/rimasdahal">
-<img align="left" alt="Samir Dahal | Twitter" width="21px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png" />
+<img align="left" alt="Samir Dahal | Twitter" width="21px" src="https://abs.twimg.com/favicons/twitter.ico" />
 </a>
 <a href="https://facebook.com/lahadrimas">
-<img align="left" alt="Samir Dahal | Facebook" width="21px" src="https://avatars2.githubusercontent.com/u/69631?s=200&v=4" />
+<img align="left" alt="Samir Dahal | Facebook" width="21px" src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" />
 </a>
 <a href="https://www.linkedin.com/in/samir-dahal/">
-<img align="left" alt="samir-dahal | LinkedIn" width="21px" src="https://avatars3.githubusercontent.com/u/357098?s=200&v=4" />
+<img align="left" alt="samir-dahal | LinkedIn" width="21px" src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" />
 </a>
-
+<a href="https://instagram.com/_samirdahal">
+<img align="left" alt="samir-dahal | Instagram" width="21px" src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" />
+</a>
 <br/>
 
 **Languages and Tools:**
