@@ -2,8 +2,8 @@
 
 A full-stack .NET developer.
 
-- 🔭 I’m currently working on my project [Munyanyo](https://munyanyo.munyanyo)
-- 🌱 I’m currently learning Xamarin.Forms & Angular
+- 🔭 I’m currently working on my project ERP System
+- 🌱 I’m currently learning React
 - 💬 Ask me about anything [here](https://github.com/samir-dahal/samir-dahal/issues)
 
 <br/>
