@@ -2,7 +2,7 @@
 
 A full-stack .NET developer.
 
-- 🔭 I’m currently working on my project YTS clone https://yts.surge.sh
+- 🔭 I’m currently working on my project YTS clone https://yts-mx.surge.sh
 - 🌱 I’m currently learning React
 - 💬 Ask me about anything [here](https://github.com/samir-dahal/samir-dahal/issues)
 
