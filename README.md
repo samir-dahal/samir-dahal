@@ -2,8 +2,8 @@
 
 A full-stack .NET developer.
 
-- 🔭 I’m currently working on my project YTS clone https://yts-mx.surge.sh
-- 🌱 I’m currently learning React
+- 🔭 I’m currently working on my project Clz Confession https://clzconfession.netlify.app
+- 🌱 I’m currently learning Vue
 - 💬 Ask me about anything [here](https://github.com/samir-dahal/samir-dahal/issues)
 
 <br/>
