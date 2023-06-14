@@ -2,7 +2,7 @@
 
 A full-stack .NET developer.
 
-- 🔭 I’m currently working on my project Sambat Widget
+- 🔭 I’m currently working on my project [Revive H!ts](https://revivehits.vercel.app)
 - 🌱 I’m currently learning Vue
 - 💬 Ask me about anything [here](https://github.com/samir-dahal/samir-dahal/issues)
 
