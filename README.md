@@ -45,8 +45,4 @@ A full-stack .NET developer.
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=samir-dahal&show_icons=true&include_all_commits=true&hide=contribs&count_private=true&line_height=32" alt="Samir's GitHub Stats" />
 </a>
 
-<a href="https://github.com/samir-dahal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samir-dahal&show_icons=true&langs_count=3&layout=default&hide_border=false" alt="Samir's GitHub Stats"/>
-</a>
-
 </p>
