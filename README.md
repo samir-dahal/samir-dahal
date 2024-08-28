@@ -14,7 +14,7 @@ A full-stack .NET developer.
 <img align="left" alt="Samir Dahal | Twitter" width="21px" src="https://abs.twimg.com/favicons/twitter.ico" />
 </a>
 <a href="https://www.linkedin.com/in/samir-dahal/">
-<img align="left" alt="samir-dahal | LinkedIn" width="21px" src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" />
+<img align="left" alt="samir-dahal | LinkedIn" width="21px" src="http://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" />
 </a>
 <a href="https://instagram.com/_samirdahal">
 <img align="left" alt="samir-dahal | Instagram" width="21px" src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" />
