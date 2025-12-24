@@ -3,6 +3,7 @@
 A full-stack .NET developer.
 
 - 🔭 I’m currently working on my project [Sambat Widget](https://github.com/samir-dahal/SambatWidget.Windows)
+- 📕 I'm currently learning F#
 - 💬 Ask me about anything [here](https://github.com/samir-dahal/samir-dahal/issues)
 
 <br/>
