@@ -1,0 +1,63 @@
+name: Generate profile cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      USERNAME: samir-dahal
+      # Optional: add a GH_PAT secret (read:user, repo) to include private contributions/languages.
+      TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Stats, languages and pinned repo cards
+        env:
+          GH_TOKEN: ${{ env.TOKEN }}
+        run: |
+          gh api graphql -F login="$USERNAME" -F query=@scripts/stats-query.graphql > stats.json
+          python scripts/gen_cards.py stats.json dist
+
+      - name: 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ env.TOKEN }}
+          USERNAME: ${{ env.USERNAME }}
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ env.USERNAME }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Collect outputs
+        run: mv profile-3d-contrib dist/
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: "chore: update profile cards"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

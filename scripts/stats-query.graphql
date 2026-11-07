@@ -1,0 +1,14 @@
+query($login: String!) {
+  user(login: $login) {
+    contributionsCollection { contributionCalendar { totalContributions } }
+    pullRequests { totalCount }
+    issues { totalCount }
+    repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
+      nodes {
+        name isPrivate stargazerCount forkCount description
+        primaryLanguage { name color }
+        languages(first: 10, orderBy: { field: SIZE, direction: DESC }) { edges { size node { name color } } }
+      }
+    }
+  }
+}
